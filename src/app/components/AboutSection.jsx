@@ -8,11 +8,21 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
+      <ul className="list-disc pl-2 grid grid-cols-2 gap-y-2">
+        <li>HTML5</li>
+        <li>CSS3</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>React.js</li>
+        <li>Express</li>
+        <li>Node.js</li>
+        <li>Next.js</li>
+        <li>Tailwind css</li>
+        <li>C</li>
+        <li>Figma</li>
+        <li>Git & Github</li>
+        <li>Webflow</li>
+        <li>MongoDB</li>
+        <li>Python</li>
       </ul>
     ),
   },
@@ -30,7 +40,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Codecademy Front-end career path</li>
+        <li>Codecademy Front-End career path</li>
         <li>Google Project Management Professional Certificate</li>
       </ul>
     ),
@@ -62,8 +72,8 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
+            working with JavaScript, React, Node.js, Express, MongoDB,
+            HTML, CSS, and Git. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications.
           </p>

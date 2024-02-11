@@ -24,7 +24,7 @@ const HeroSection = () => {
               sequence={[
                 "Ahmad",
                 1000,
-                "Software Developer",
+                "Software Engineer",
                 1000,
                 "Web Developer",
                 1000,
@@ -37,8 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            Crafting digital experiences with passion and precision
           </p>
           <div>
             <Link

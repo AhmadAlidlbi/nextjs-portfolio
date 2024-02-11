@@ -11,10 +11,6 @@ const navLinks = [
     path: "#about",
   },
   {
-    title: "Projects",
-    path: "#projects",
-  },
-  {
     title: "Contact",
     path: "#contact",
   },
@@ -28,9 +24,9 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-base md:text-xl text-white font-semibold"
         >
-          LOGO
+          Ahmad Alidlbi
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
