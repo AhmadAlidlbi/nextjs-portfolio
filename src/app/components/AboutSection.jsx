@@ -22,7 +22,6 @@ const TAB_DATA = [
         <li>Git & Github</li>
         <li>Webflow</li>
         <li>MongoDB</li>
-        <li>Python</li>
       </ul>
     ),
   },
